@@ -25,7 +25,3 @@ function ticketPrice(tickets){
         console.log( fristTotal + secondTotal + thirdTotal);
     }
 }
-
-
-const result = ticketPrice(202);
-// console.log(result);

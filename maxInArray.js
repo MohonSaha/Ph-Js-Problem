@@ -4,7 +4,7 @@
 
 function maxInArray(numbers){
     let largest = numbers[0];
-    for(number in numbers){
+    for(const number in numbers){
         const element = numbers[number];
         if(element > largest){
             largest = element;

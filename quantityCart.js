@@ -1,7 +1,7 @@
 
 function totalCost(products){
     let sum = 0;
-    for(product in products){
+    for(const product in products){
         const singleProduct = products[product];
         const singleCost = singleProduct.quantity * singleProduct.price; 
         sum += singleCost;
